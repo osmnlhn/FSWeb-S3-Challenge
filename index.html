@@ -9,45 +9,59 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
+	<link rel="stylesheet" href="css/index.css">
+	
 
 <body>
+	
 	<div>
 		<!-- header -->
-		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
-
+		<header class="header">
+			<div >
+				<a href=""><h2>ERGİNEER BAR VE MANGAL</h2></a>
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
-			</div>
+				
+				<nav>
+					<a href="menu.html">Menü</a>
+					<a href="">Rezervasyonlar</a>
+					<a href="">Özel Teklifler</a>
+					<a href="">İletişim</a>
+		
+				</nav>
+	          <section>
+				<i class="fa-brands fa-facebook" style="font-size:30px;color: aliceblue;"></i>
+				<i class="fa-brands fa-twitter" style="font-size:30px;color: aliceblue;"></i>
+				<i class="fa-brands fa-instagram" style="font-size:30px;color: aliceblue;"></i>
+			  </section>
+				
+				
+				</div>
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
+			<h2>YEMEKLERİMİZ</h2>
 			<div>
-				<h2>YEMEKLERİMİZ</h2>
+				
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg" alt="">
+				
+				<img src="img/food-burger.jpg" alt="">
+				
+				<img src="img/food-poutine.jpg" alt="">
+				
+				<img src="img/food-ribs.jpg" alt="">
+				<img src="img/food-sandwich.jpg" alt="">
+				
+				
+				<img src="img/food-sausage.jpg" alt="">
+				
+				<img src="img/food-steak.jpg" alt="">
+				<img src="img/food-tacos.jpg" alt="">
+				
+				<img src="img/food-wings.jpg" alt="">
 
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				
 			</div>
 		</section>
 
@@ -123,17 +137,35 @@
 		<div class="spacer-sm"></div>
 
 		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+		<footer class="footer">
+			<div class="footer_leftside">
+
+			<div class="footer_form"><!-- email signup -->
+				
+				<form >
+					<div>Mail listemize katılın!</div>
+					<div class="footer_leftside" >
+						<input type="email" id="email" name="email" placeholder="Eposta Adresi" />
+						<button onclick="">Üye Ol</button>
+					</div>
+				</form>
+			</div>
+			
+			
+			<div class="footer_nav_div"><!-- nav -->
+				<nav class="footer_nav">
+					<a href="">Menü</a>
+					<a href="">Rezervasyonlar</a>
+					<a href="">Özel Teklifler</a>
+					<a href="">İletişim</a>
+				</nav>
+			</div>
+		</div>
+			
+			<div class="footer_copy">
 			<!-- copyright -->
 			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+		</div>
 		</footer>
 	</div>
 </body>
